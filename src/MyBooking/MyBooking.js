@@ -8,16 +8,17 @@ const MyBooking = () => {
     const { bookId} = useParams();
 
     const [books, setBooks] = useState([]);
-
     useEffect(() => {
         fetch('https://macabre-chupacabra-39951.herokuapp.com/books')
         .then(res=>res.json())
         .then(data=>setBooks(data))
     }, [bookId])
+
+    
     
 
     const handledelete = book => {
-        const url = `https://macabre-chupacabra-39951.herokuapp.com/${book}`;
+        const url = `https://macabre-chupacabra-39951.herokuapp.com/books/${book}`;
         fetch(url, {
             method:"DELETE"
         })
@@ -35,8 +36,7 @@ const MyBooking = () => {
 }
     return (
 <div className="mybooking">
-            <h1>My Booking </h1>
-            
+<h1>My Booking </h1>
             {
                 books.map(book =>
                     <div key={book._id}
@@ -48,7 +48,8 @@ const MyBooking = () => {
                             <Col xs={4}>
                     <h3 className="text-primary">{book.book.name}</h3>
                     <h5>Cost: $ {book.book.price}</h5>
-                    <h5 className="text-danger">Duration:  {book.book.duration}</h5>
+                                <h5 className="text-danger">Duration:  {book.book.duration}</h5>
+                                <h5>Booked By : {book.name}</h5>
                             </Col>
                             <Col xs={2} className="mt-5">
                             <button className="btn btn-primary mx-2">Update</button>
