@@ -1,0 +1,20 @@
+.a {
+  height: 500px !important;
+  width: 99.9%;
+  margin-top: 58px;
+}
+
+.hd {
+  margin-top: -300px;
+  font-size: 50px;
+}
+@media only screen and (max-width: 688px) {
+  .hd {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 689px) and (max-width: 991px) {
+  .hd {
+    font-size: 30px;
+  }
+}

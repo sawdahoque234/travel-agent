@@ -1,0 +1,22 @@
+.bookingpage {
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+.img {
+  height: 200px;
+}
+.user-form {
+  margin: 20px 100px;
+}
+.user-form input {
+  display: block;
+  margin-top: 20px;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 300px;
+}
+.error {
+  color: red;
+}
