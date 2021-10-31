@@ -23,6 +23,7 @@ const AddTour = () => {
       
                     <input type="text" placeholder="Place" {...register("name", { required: true })} />
                     <input type="number" placeholder="Cost" {...register("price")} />
+                    <input type="character"  placeholder="Duration" {...register("duration")} />
                     <textarea type="text" placeholder="Description" {...register("description")} />
                     <input placeholder="Image" {...register("img")} />
                     <input type="submit" value="Add Now" />

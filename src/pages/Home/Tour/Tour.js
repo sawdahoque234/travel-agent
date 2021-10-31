@@ -11,7 +11,7 @@ const Tour = ({tour}) => {
             
         <img className="tourimg" src={img} alt="" />
                 <h3>{name}</h3>
-                <h5 className="bg-secondary py-2 rounded-3 text-white "><span className="fw-bold mx-2">$ {price}.00</span> | <span >{duration}</span></h5>
+                <h5 className="bg-secondary py-2 rounded-3 text-uppercase text-white "><span className="fw-bold mx-2">$ {price}.00</span> | <span >{duration}</span></h5>
                             <p className="">{description.slice(0, 200)}</p>
                
                                     
