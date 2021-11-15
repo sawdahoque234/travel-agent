@@ -14,7 +14,7 @@ const Tour = ({tour}) => {
                             <p className="">{description.slice(0, 200)}</p>
                
                                     
-                        <Link to={`/bookingpage/${_id}`}>
+                        <Link to={`/bookingpage/${_id}`} >
                                          <button className="btn btn-primary tourbtn">Book Now</button>
                                     </Link>
                 

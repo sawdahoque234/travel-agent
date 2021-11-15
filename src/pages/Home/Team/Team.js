@@ -16,10 +16,10 @@ const Team = () => {
                 <Col className="border-3 rounded-3 shadow-lg">
                     <img src={img1} className="border-3 rounded-circle" alt="" /><br />
                     <h3 class="py-3 my-2 text-primary"><BsLinkedin /> <span className="text-info mx-2"><BsTwitter /></span> <BsFacebook /> 
-</h3>
+                    </h3>
                     <h3 className="fw-bold">Mr. Jhone Doe</h3>
                     <h5>Founder</h5>
-                </Col>
+                    </Col>
                 <Col className="border-3 rounded-3 shadow-lg">
                     <img src={img2} className="border-3 rounded-circle" alt="" /><br />
                     <h3 class="py-3 my-2 text-primary"><BsLinkedin/> <span className="text-info mx-2"><BsTwitter/></span> <BsFacebook/> 

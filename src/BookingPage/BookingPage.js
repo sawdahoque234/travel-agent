@@ -5,6 +5,7 @@ import useAuth from '../hooks/useAuth';
 import { Col, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import './booking.css'
+
 const BookingPage = () => {
     const { tourId} = useParams();
     const [tour, setTour] = useState([]);
@@ -72,7 +73,7 @@ const BookingPage = () => {
                             </form>
 
                         </Col>
-</Row>
+</Row>y
                 
             </div>
                 </Container>

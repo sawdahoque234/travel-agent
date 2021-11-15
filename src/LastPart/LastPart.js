@@ -25,10 +25,10 @@ const LastPart = () => {
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                             <Form.Control as="textarea" placeholder="comments/question*" rows={5} />
-                                </Form.Group>
+                            </Form.Group>
                     </Form>
                     <div className="my-3">
-<Button variant="primary">Send Now</Button>
+                <Button variant="primary">Send Now</Button>
 
                     </div>
                     </Col>
